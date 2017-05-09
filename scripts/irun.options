@@ -1,0 +1,18 @@
+-64bit
+-access +rwc
+-sv
+-uvm
+-gui
+-timescale 1ns/1ps
+-disable_sem2009
++UVM_NO_RELNOTES
++UVM_VERBOSITY=UVM_LOW
+
++incdir+${PROJECT_HOME}
+
+${PROJECT_HOME}/ex_top.sv
+
+// Top module
+-top ex_top
+
+//probe -create ex_top -depth all -tasks -functions -uvm -packed 4k -unpacked 16k -all -memories -database waves -waveform

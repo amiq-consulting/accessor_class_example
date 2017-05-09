@@ -1,0 +1,13 @@
+-64
+-linedebug
+-sv
+-timescale 1ns/1ps
++UVM_NO_RELNOTES
++acc=a
+
+// Project include directories
++incdir+${PROJECT_HOME}
+
+// Compilation units
+${PROJECT_HOME}/ex_top.sv
+

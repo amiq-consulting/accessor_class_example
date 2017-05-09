@@ -1,0 +1,16 @@
++acc
++vpi
+-timescale=1ns/1ps
+-sverilog
+-full64
++libext+.sv
++libext+.svh
+
+// Project include directories
++incdir+${PROJECT_HOME}
+
+// Compilation units
+${PROJECT_HOME}/ex_top.sv
+
+// Top module
+-top ex_top
